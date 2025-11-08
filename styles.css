@@ -1,0 +1,19 @@
+:root{--accent:#0b78d1;--bg:#f7f9fb;--text:#222}
+*{box-sizing:border-box}body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial;line-height:1.5;color:var(--text);margin:0;background:var(--bg)}
+.wrap{max-width:1000px;margin:0 auto;padding:24px}
+.site-header{background:#fff;box-shadow:0 1px 6px rgba(0,0,0,.06)}
+.site-header .wrap{display:flex;align-items:center;justify-content:space-between}
+.brand{margin:0;padding:12px 0;font-size:20px}
+.nav a{margin-left:16px;text-decoration:none;color:var(--text)}
+.hero{padding:56px 0;background:linear-gradient(90deg,rgba(11,120,209,.12),transparent)}
+.hero h2{margin:0 0 10px;font-size:32px}
+.btn{display:inline-block;padding:10px 16px;background:var(--accent);color:#fff;text-decoration:none;border-radius:8px}
+.cards{display:flex;gap:16px;margin-top:24px}
+.card{background:#fff;padding:18px;border-radius:10px;flex:1;box-shadow:0 6px 18px rgba(10,10,10,.04)}
+.portfolio-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:12px;margin-top:12px}
+.thumb{background:#fff;padding:18px;border-radius:8px;min-height:80px;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 18px rgba(10,10,10,.04)}
+.contact form{display:grid;gap:8px;max-width:480px}
+input,textarea{padding:10px;border-radius:8px;border:1px solid #ddd}
+.site-footer{padding:18px 0;text-align:center;color:#666;font-size:14px;margin-top:40px}
+.note{font-size:13px;color:#666}
+@media(max-width:640px){.cards{flex-direction:column}.site-header .wrap{flex-direction:column;gap:8px}}

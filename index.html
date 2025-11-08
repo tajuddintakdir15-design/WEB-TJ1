@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FTrust Studio - Jasa Desain & Build</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <h1 class="brand">FTrust Studio</h1>
+      <nav class="nav">
+        <a href="#services">Layanan</a>
+        <a href="#portfolio">Portofolio</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <h2>Buat Rumah & Ruang Impian Anda</h2>
+        <p>Desain & Build profesional — dari konsep sampai serah terima.</p>
+        <a class="btn" href="#contact">Hubungi Sekarang</a>
+      </div>
+    </section>
+
+    <section id="services" class="wrap cards">
+      <article class="card">
+        <h3>Desain Arsitektur</h3>
+        <p>Gambar kerja, tampak, potongan, detail pelaksanaan.</p>
+      </article>
+      <article class="card">
+        <h3>Perencanaan Struktur</h3>
+        <p>Analisa struktur & dokumen perhitungan.</p>
+      </article>
+      <article class="card">
+        <h3>Build & Supervisi</h3>
+        <p>Pelaksanaan, manajemen kontraktor, dan QC.</p>
+      </article>
+    </section>
+
+    <section id="portfolio" class="wrap">
+      <h3>Portofolio Singkat</h3>
+      <div class="portfolio-grid">
+        <div class="thumb">Rumah 6x12</div>
+        <div class="thumb">Rehab Sekolah</div>
+        <div class="thumb">Minbar Ukir</div>
+      </div>
+    </section>
+
+    <section id="contact" class="wrap contact">
+      <h3>Kontak</h3>
+      <p>Ingin konsultasi? Kirim email ke <a href="mailto:info@ftruststudio.id">info@ftruststudio.id</a> atau isi form singkat:</p>
+      <form id="contactForm">
+        <input name="name" placeholder="Nama" required />
+        <input name="email" placeholder="Email" type="email" required />
+        <textarea name="message" placeholder="Pesan" required></textarea>
+        <button type="submit" class="btn">Kirim</button>
+      </form>
+      <p class="note">(Form adalah demo; untuk form berbasis server gunakan Netlify Forms atau layanan form pihak ketiga.)</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">© <span id="year"></span> FTrust Studio — All rights reserved.</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
